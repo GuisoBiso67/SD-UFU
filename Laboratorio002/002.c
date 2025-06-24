@@ -26,7 +26,7 @@ int twosComplement(int* vet){
     }
 }
 
-int adder(int* vet1){
+int adderOne(int* vet1){
     int carry=1;
     
     for(int i=0;i<16;i++){
