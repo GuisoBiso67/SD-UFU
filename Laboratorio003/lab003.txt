@@ -1,0 +1,17 @@
+EX1:
+é outra maneira de fazer a porta lógica "NOT"
+
+EX2:
+é outra maneira de fazer a porta lógica "E"
+
+EX3:
+é outra maneira de fazer a porta lógica "OU"
+
+EX4:
+0 0 -> p1 = 1 -> p2 = 1 -> p3 = 1 -> pF = 0
+0 1 -> p1 = 1 -> p2 = 1 -> p3 = 0 -> pF = 1
+1 0 -> p1 = 1 -> p2 = 0 -> p3 = 1 -> pF = 1
+1 1 -> p1 = 0 -> p2 = 1 -> p3 = 1 -> pF = 0
+
+EX5:
+se é possível construir as portas básicas apenas com "NAO-E", é possível construir qualquer sistema apenas com "NAO-E"
