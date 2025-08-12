@@ -1,0 +1,30 @@
+Q2
+
+x = nº de canais entradas (A,B,C,D,...)
+y = nº de sinais de controle (C0,C1,C2,...)
+x=2^1; y=1; 
+x=2^2; y=2;
+x=2^3; y=3;
+x=2^4; y=4;
+
+FORMULA: 2^y = x ou y = log2(x)
+
+Q3 
+É necessário 5 sinais de controle. 
+Com 16 entradas, é necessário 4 sinais de controle. Com 32 entradas, é necessário 5. 4 é pouco e 5 é o necessário, mesmo sobrando entradas.
+
+Q4
+
+2 entradas é necessário 1 NOT (2^0), 2 AND (2^1), 1 OR = 4 (3 + 1);
+4 entradas é necessário 4 NOT (2^2), 8 AND (2^3), 1 OR = 13 (12 + 1)
+8 entradas, supostamente é preciso (2^4) NOT, (2^5) AND e 1 OR = 49 (48 + 1);
+16 entradas, supostamente é preciso (2^6) NOT, (2^7) AND e 1 OR = 193 (192 + 1);
+
+FORMULA: 2^E-2 + 2^E-1 + 1 = nº de portas
+E = nº de entradas
+NOT = 2^E-2
+AND = 2^E-1
+OR = 1
+
+Q5
+Nao entendi o que é LUTs, nem com vídeos, nem com circuito e não achei no material.
